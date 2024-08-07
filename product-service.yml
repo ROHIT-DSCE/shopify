@@ -10,3 +10,13 @@ spring:
     username: postgres
     password: root
     driverClassName: org.postgresql.Driver
+
+logging: 
+   level:
+     com:
+       ms:
+         product: TRACE
+     org:
+       springframework: DEBUG
+       hibernate: ERROR
+    
