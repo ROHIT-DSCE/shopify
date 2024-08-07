@@ -1,15 +1,3 @@
-server:
-  port: 7777
-
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: "http://localhost:5090/eureka/"
-
 logging:
   level:
     com:
@@ -17,16 +5,4 @@ logging:
         app: TRACE 
     org:
        springframework: TRACE
-       hibernate: ERROR      
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint: 
-    gateway:
-      enabled: true       
-  info:
-    env:
-      enabled: true    
+       hibernate: ERROR
