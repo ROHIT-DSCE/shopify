@@ -1,20 +1,3 @@
-server:
-  port: 5090
-
-eureka:
-  instance:
-    hostname: localhost
-    prefer-ip-address: true
-    instance-id: ${spring.application.name}:${instanceId:${random.value}}
-  server:
-    wait-time-in-ms-when-sync-empty: 0
-    enable-self-preservation: true
-  client:
-    fetchRegistry: false
-    registerWithEureka: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-
 logging:
   level:
     com:
