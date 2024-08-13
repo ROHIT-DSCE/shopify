@@ -1,17 +1,3 @@
-#server:
-#  port: 7777
-
-eureka:
-  instance:
-    hostname: localhost
-    prefer-ip-address: true
-    instance-id: ${spring.application.name}:${instanceId:${random.value}}
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: "http://localhost:5090/eureka/"        
-      
 logging:
   level:
     com:
