@@ -11,6 +11,16 @@ spring:
     password: "{cipher}af73c57d4975bb75606952cd8750c18663315b0e1e051a04a44c42b943c3874a"
     driverClassName: org.postgresql.Driver
 
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: "http://localhost:5090/eureka/"
+      
+
 logging: 
    level:
      com:
