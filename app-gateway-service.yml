@@ -5,9 +5,9 @@ logging:
   level:
     com:
       ms:
-        app: TRACE 
+        app: DEBUG 
     org:
-       springframework: TRACE
+       springframework: DEBUG
        hibernate: ERROR
 
 eureka:
