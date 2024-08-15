@@ -26,3 +26,6 @@ logging:
     com:
       ms:
         order: DEBUG
+    org:
+       springframework: DEBUG
+       hibernate: ERROR  
