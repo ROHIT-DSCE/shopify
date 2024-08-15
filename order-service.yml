@@ -19,3 +19,10 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: "http://localhost:5090/eureka/"
+
+     
+logging:
+  level:
+    com:
+      ms:
+        order: DEBUG
