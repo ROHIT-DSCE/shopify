@@ -25,7 +25,7 @@ logging:
    level:
      com:
        ms:
-         product: TRACE
+         product: DEBUG
      org:
        springframework: DEBUG
        hibernate: ERROR
